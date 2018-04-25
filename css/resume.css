@@ -1,0 +1,67 @@
+/****************************
+  Fonts
+*****************************/
+@font-face {
+  font-family:'MavenPro-Med';
+  src:url('../fonts/MavenPro-Medium.ttf');
+}
+
+@font-face {
+  font-family:'Damase';
+  src:url('../fonts/damase_v.2.ttf');
+}
+
+span {
+  display:initial;
+}
+
+div {
+  float:left;
+}
+
+p {
+  font-size:1.6em;
+}
+
+strong {
+  /*color:#FBDB0C;*/
+  font-family:'MavenPro-Med';
+  color:#FFBF00;
+  font-size:1.125em;
+}
+
+#profile p {
+  font-family:'MavenPro-Med';
+  font-size:3em;
+  color:#fff;
+  line-height:200%;
+}
+
+div#profile {
+  width:400px;
+  height:940px;
+  text-align:center;
+  background-color:#8a2be2;
+}
+
+.img-circle {
+  max-width:200px;
+  max-height:200px;
+  border-radius:50%;
+  border:10px solid #fff;
+  margin:80px 0 40px 0;
+}
+
+div#resume {
+  width:1460px;
+  height:940px;
+  margin:0 auto;
+}
+
+#resume p {
+  width:1180px;
+  font-size:5.125em;
+  font-family:'Damase';
+  margin:10% 0 0 15%;
+  line-height:150%;
+}

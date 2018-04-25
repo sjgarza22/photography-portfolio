@@ -1,0 +1,39 @@
+/*********************************
+  About CSS
+  author: Sara Garza
+  last updated: 8/4/16
+**********************************
+
+  Basic Styles & Fonts
+**********************************/
+
+@font-face {
+  font-family:'MavenPro-Med';
+  src:url('../fonts/MavenPro-Medium.ttf');
+}
+
+p {
+	font-family: 'MavenPro-Med';
+	font-size: 3em;
+	padding: 5% 0;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+#info {
+	width: 90%;
+	margin: 10% auto;
+}
+
+#cat-photo {
+	width: 60%;
+	border: 10px solid #fff;
+	float: right;
+	-ms-transform: rotate(-7deg); /* IE 9 */
+	-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+	transform: rotate(-7deg);
+	margin-right: 10%;
+}
+

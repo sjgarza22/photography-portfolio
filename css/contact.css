@@ -1,0 +1,38 @@
+@font-face {
+  font-family:'Damase';
+  src:url('../fonts/damase_v.2.ttf');
+}
+
+div {
+  width: 33.33%;
+  float: left;
+}
+
+input, textarea {
+  font-size:.75em;
+}
+
+div#form {
+  height: 940px;
+  background-color: #8a2be2;
+  margin: 0 auto;
+}
+
+.contactForm {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#text p {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#text, #form, #social-media {
+  font-size:3em;
+  font-family:Damase;
+}
+
+#right {
+  display:initial;
+}

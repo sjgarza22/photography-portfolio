@@ -1,0 +1,18 @@
+"galleries" = {
+  "bands": [
+      {
+        "name": "Bands",
+        "subfolders": "2"
+      },
+      {
+        "name": "Dresden Dolls",
+        "url": "../images/gallery/bands/dresden-dolls",
+        "numOfPhotos": "5"
+      },
+      {
+        "name": "J Metro",
+        "url": "../images/gallery/bands/jmetro",
+        "numOfPhotos": "18"
+      }
+  ]
+}

@@ -1,0 +1,129 @@
+/*********************************
+  Main CSS
+  author: Sara Garza
+  last updated: 8/27/15
+**********************************
+
+  Basic Styles & Fonts
+**********************************/
+
+@font-face {
+  font-family:'Skinny';
+  src:url('../fonts/Skinny-Regular.otf');
+  font-weight:normal;
+}
+
+@font-face {
+  font-family:'MavenPro';
+  src:url('../fonts/MavenPro-Black.ttf');
+}
+
+html {
+  font-size:16px;
+}
+
+body {
+  font-size:62.5%;  /* 1em = 10px */
+  background-color:#FAF8D4;
+}
+
+html, body, h1, h2, p, ul, li, span, form, div {
+    margin:0;
+    padding:0;
+}
+
+a {
+  text-decoration:none;
+  color:#fff;
+}
+
+section::-webkit-scrollbar {
+  width:5px;
+  height:930px;
+}
+  
+
+/*********************************
+  Navigation
+**********************************/
+
+nav {
+  width:100%;
+  max-height:100px;
+  background-color:#000;
+  position:fixed;
+  bottom:0px;
+  box-shadow: 0 -5px 0 #ffcc11;
+  border-top: 2px solid #fff;
+}
+
+nav li {
+  font-family:'MavenPro';
+  text-transform:uppercase;
+  width:20%;
+  font-size:3em;
+  position:relative;
+  margin:25px 0;
+}
+
+/*********************************
+  Page: Landing
+**********************************/
+
+
+.navItem {
+  float: left;
+  list-style-type:none;
+  text-align:center;
+}
+
+.landing {
+  font-family:'Skinny';
+  color:#fff;
+}
+
+.landing li {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  font-size: 10em;
+  list-style-type: none;
+}
+
+#photographer {
+  height:940px;
+  opacity:0.75;
+  background:url('../images/lp/img_01.png') no-repeat;
+  background-position:center;
+  background-size:cover;
+  line-height:1000px;
+}
+
+#coordinator {
+  height:940px;
+  opacity:0.75;
+  background:url('../images/lp/img_02.png') no-repeat;
+  background-position:center;
+  background-size:cover;
+  line-height:1000px;
+}
+
+#ninja {
+  height:940px;
+  opacity:0.75;
+  background:url('../images/lp/img_03.png') no-repeat;
+  background-position:center;
+  background-size:cover;
+  line-height:1000px;
+}
+
+span {
+  display:none;
+}
+
+#ninja:hover,
+#cinematographer:hover,
+#photographer:hover{
+  opacity:initial;
+}
+
